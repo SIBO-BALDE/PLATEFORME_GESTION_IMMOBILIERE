@@ -1,0 +1,42 @@
+:root{
+  --principal:#D46F4D;
+  --seconde:#fff;
+  --troisieme:#0000;
+}  
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none !important; 
+  /* outline: 2px solid red; */
+}
+
+.mainContent {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.09);
+  /* position: fixed; 
+  top: 0; */
+  /* background-color: #ffffff;  */
+  padding: 10px; /* Ajoutez le rembourrage souhaité */
+  box-sizing: border-box; /* Inclure bordures et rembourrage dans la largeur totale */
+}
+
+.mainContent .mainContentLeft i {
+  margin: 10px; /* Ajustez la marge selon vos préférences */
+  font-size: 2.5rem;
+}
+
+.mainContent .mainContentRight i {
+  font-size: 2.5rem;
+  margin: 10px; /* Ajustez la marge selon vos préférences */
+}
+@media screen and (max-width: 1337px) {
+  .mainContent{
+    display:none !important;
+  }
+}

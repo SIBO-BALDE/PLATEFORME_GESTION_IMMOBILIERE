@@ -1,0 +1,93 @@
+:root {
+    --principal: #d46f4d;
+    --seconde: #fff;
+    --troisieme: #0000;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none !important;
+    /* outline: 2px solid red; */
+  }
+  
+  .table-light {
+    background-color: var(--principal);
+  }
+  .img-profile-tab-admin {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+  }
+  
+  .maincontent-dashbord-static {
+    display: grid;
+    grid-template-columns: 15% 85%;
+    height: 100vh;
+  }
+  .contentsidebar{
+    height: 100%;
+    /* border: 1px solid #000; */
+    background-color: var(--seconde);
+
+  }
+  .hidden {
+    grid-template-columns: 0% 100% !important;
+  }
+  .secondecontent {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    height: 100%;
+    /* border: 1px solid red; */
+    box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.09);
+  
+  }
+  .dashbord-content-main-one {
+    display: grid;
+    grid-template-columns: 65% 35%;
+    gap: 20px;
+  }
+  .content-left-admin-dashbord {
+    margin-top: 30px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px,
+    ;
+    border-radius: 20px;
+    padding: 20px;
+  }
+  .contenueprincipal {
+    height: 100% !important;
+    /* overflow: hidden; */
+  }
+  .title-progressbar-admin {
+    background-color: var(--principal);
+    color: var(--seconde);
+    padding: 5px 5px;
+    /* border-radius: 20px; */
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+  .conten-admin-2 {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px
+    ;
+    border-radius: 20px;
+    padding: 5px;
+  }
+  .progress {
+    margin-top: 7px !important;
+  }
+  #progress-bar {
+    color: var(--principal);
+    background-color: var(--principal);
+  }
+  
+  .content-diagramme-circulaire-right-conten-2 {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px;
+    border-radius: 20px;
+    margin-top: 30px;
+    /* background-color: var(--principal); */
+  }
+  thead #hearder-color{
+    background-color: var(--principal) !important;
+  }

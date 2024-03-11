@@ -1,0 +1,304 @@
+:root{
+    --principal:#D46F4D;
+    --seconde:#fff;
+    --troisieme:#0000;
+}
+
+
+.Container_Header {
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+  }
+  
+  .Container_Header .first_menu {
+    background-color: var(--principal);
+    padding: 0.3em;
+    color: white;
+    height: 50px;
+    
+  }
+  
+  .first_menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .first_menu ul li {
+    margin-top: 5px;
+  }
+  
+  
+  
+  #mail {
+    border-left: 3px solid white;
+    padding: 0.3em;
+  }
+  
+  .first_menu ul li:last-child .icons-content1 {
+    padding: 0.2em;
+    /* background-color: white; */
+    border-radius: 100%;
+    color: #262626;
+    /* margin-left: 7px; */
+    font-size: 18px !important;
+  }
+  
+  .first_menu ul li:last-child {
+    margin-right: 20px;
+  }
+  
+  .first_menu_section {
+    margin-top: 10px;
+  }
+  
+  .second_menu {
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    padding: 1em;
+    color: black;
+   
+  }
+  
+  .second_menu ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    list-style-type: none;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  .second_menu ul li:first-child {
+    position: absolute;
+    left: 0;
+  }
+  
+  .second_menu ul li img {
+    width: 60px;
+    height: 60px;
+  }
+  
+  .second_menu ul li:last-child {
+    position: absolute;
+    right: 0;
+    background-color: #D46F4D;
+    padding: 0.8em;
+    color: white;
+    border-radius: 7px;
+    margin-right: 28px;
+    width: 130px;
+    text-align: center;
+  }
+  
+  .second_menu ul li a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  .second_menu ul li:first-child {
+    margin-left: 45px;
+  }
+  
+  .second_menu ul li a:hover {
+    color: #D46F4D;
+  }
+  
+  .Footer_Container {
+    background-color: #262626;
+    min-height: 550px;
+    color: white;
+    width: 100%;
+  }
+  
+  .second_menu ul li:not(:last-child):hover {
+    color: #D46F4D;
+    cursor: pointer;
+  }
+  .icons-content{
+    border-radius: 50%;
+    background-color: white;
+    color: #D46F4D;
+    width: 20px;
+    height: 20px;
+  }
+  
+  
+  
+  .btn-connection{
+    color: white !important;
+    background-color: var(--principal) !important;
+    border: var(--principal) !important;
+  }
+  .btn-connection1{
+    color: var(--principal) !important;
+    background-color: var(--seconde) !important;
+    border: 1px solid  var(--principal) !important;
+
+  }
+  .reference{
+    width: 80%; 
+    margin: auto
+  }
+  /* Stylisation topbar et navbar */
+  .paniericon{
+   
+    color: var(--principal);
+  }
+  .cartnumber{
+    background-color: var(--principal);
+    color: var(--seconde);
+    top: -12px;
+    position: relative;
+    /* width: 200px; */
+    font-size: 12px;
+    height: 20px;
+    padding-left: 3px ;
+    padding-right:4px ;
+    padding-bottom: 2px;
+    margin-right: 40px;
+    border-radius: 50%;
+    
+  }
+  .exemplelogo{
+    width: 160px;
+    height: 160px;
+    margin-top: 10px;
+  }
+  .navbarcontent{
+    margin-left: 400px;
+  }
+  #navbarcontentmain{
+    width: 100% !important;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+    background-color: var(--seconde);
+    height: 70px;
+  }
+  .cartcontent{
+    margin-top: 7px;
+  }
+  .navlinkcontenthome{
+    color: black !important;
+    text-decoration: none;
+  }
+  .navlinkcontenthome:hover{
+    color: var(--principal) !important;
+  }
+ 
+ 
+  .Social_Media span{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    padding: 5px;
+    background-color: white;
+    margin: 0 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .active-link{
+    text-decoration: underline;
+    color: var(--principal);
+  }
+
+  
+  /* média queries */
+   @media  screen and (max-width:1198px) {
+    .btn-connection {
+      display: none !important;
+    }
+    #paniericon{
+      display: none !important;
+    }
+    
+  }
+ 
+
+
+   @media  screen and (max-width:993px) {
+    .navbarcontent{
+      margin-left: 0 !important;
+    }
+   
+   
+  } 
+   @media  screen and (max-width:992px) {
+    .btn-connection {
+      display: block !important;
+    }
+    #paniericon{
+      display: block !important;
+    }
+   
+    .navlinkcontenthome{
+      background-color: var(--seconde) !important;
+      width: 100%;
+      padding-left: 5rem !important;
+      
+      
+    }
+   
+  } 
+   @media  screen and (max-width:991px) {
+    .exemplelogo{
+      width: 50px;
+      height: 60px;
+      margin-top: 0;
+      /* margin-bottom: 120px; */
+    }
+   
+  } 
+   @media  screen and (max-width:941px) {
+   #btnpabiernav{
+    display: flex;
+    justify-content: end;
+   }
+   
+  } 
+   @media  screen and (max-width:562px) {
+    .first_menu ul {
+      list-style: none;
+      display: block;
+      justify-content: space-between;
+      align-items: center;
+    }
+    
+    .first_menu ul li {
+      margin-top: 5px;
+    }
+    .first_menu {
+      background-color: var(--principal);
+      padding: 0.3em;
+      color: white;
+      height: 80px !important;
+      
+    }
+   
+  } 
+   @media  screen and (max-width:414px) {
+    .first_menu ul {
+      list-style: none;
+      display: block;
+      justify-content: space-between;
+      align-items: center;
+    }
+    
+    .first_menu ul li {
+      margin-top: 5px;
+    }
+    .first_menu {
+      background-color: var(--principal);
+      padding: 0.3em;
+      color: white;
+      height: 100px !important;
+      
+    }
+   
+  } 
+ 
+  

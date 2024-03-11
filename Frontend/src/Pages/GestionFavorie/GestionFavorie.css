@@ -1,0 +1,11 @@
+:root{
+    --principal:#D46F4D;
+    --seconde:#fff;
+    --troisieme:#0000;
+    --couleurNoir:#262626;
+}
+#active-btn{
+    background-color: var(--principal);
+    color: var(--seconde);
+    border: none !important;    
+}

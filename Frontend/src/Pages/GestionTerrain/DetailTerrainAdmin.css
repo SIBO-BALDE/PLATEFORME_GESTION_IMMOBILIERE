@@ -1,0 +1,76 @@
+:root{
+    --principal:#D46F4D;
+    --seconde:#fff;
+    --troisieme:#0000;
+}  
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none !important;
+}
+#content-main-detail-maison-content{
+    margin-top: 160px !important;
+}
+.content-main-detailmaison-terrain{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px
+    ;
+
+}
+.one-img-left-terrain{
+   background-color: var(--seconde);
+    width: 100%;
+    height: 100%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+    padding: 20px;
+    border-radius: 15px;
+}
+.second-img-right-terrain{
+   background-color: var(--seconde);
+    width: 100%;
+    height: 100%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+    padding: 20px;
+    border-radius: 15px;
+}
+.img-main-detail-terrain{
+    width: 100%;
+    height: 100%;
+    /* border-radius: 15px; */
+}
+.content-img-detail-terrain1{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+.second-img-right1-terrain{
+    width: 100%;
+    height: 100%;
+}
+.image-intermédiaire-terrain{
+    width: 197px !important;
+    height: 100px !important;
+    border-radius: 15px !important;
+}
+.voir-content-detailterrain{
+    background-color: var(--principal);
+    color: var(--seconde);
+    border-radius: 10px !important;
+    padding: 2px 10px;
+    margin-left: 30px;
+}
+#link-voir-more-terrain{
+    color: var(--seconde);
+    text-decoration: none !important;
+}
+#icon-details-right-terrain{
+    color: var(--principal);
+    margin-right: 30px !important;
+}
+#btn-btn-ajouter-panier-terrain{
+    background-color: var(--principal);
+    border: none;
+}

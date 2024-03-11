@@ -1,0 +1,52 @@
+:root{
+    --principal:#D46F4D;
+    --seconde:#fff;
+    --troisieme:#0000;
+}  
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none !important;
+}
+
+.icon-diamond-home{
+    color: var(--principal);
+  }
+  .contentlinehome{
+    display: flex;
+    justify-content: center !important;
+    width: 70px;
+    gap: 5px;
+    /* border: 1px solid red; */
+  }
+  #underline-content1{
+    width: 30%;
+
+  }
+  #underline-content2{
+    width: 70%;
+
+  }
+  .underline-content{
+    height: 5px;
+    width: 100%;
+    border-top: 3px solid var(--principal) !important;
+  }
+  #underline-content1, #underline-content2 {
+    animation: underlineAnimation 2s linear infinite;
+  }
+  
+  @keyframes underlineAnimation {
+    0% {
+      transform: scaleX(1);
+    }
+    50% {
+      transform: scaleX(0); /* Mettez à zéro pour réduire la largeur à zéro */
+    }
+    100% {
+      transform: scaleX(1);
+    }
+  }
+  

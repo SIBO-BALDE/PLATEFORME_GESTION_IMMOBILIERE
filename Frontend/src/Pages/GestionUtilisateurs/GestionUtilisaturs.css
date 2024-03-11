@@ -1,0 +1,28 @@
+:root {
+    --principal: #d46f4d;
+    --seconde: #fff;
+    --troisieme: #0000;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none !important;
+  }
+  #hearder-color-content{
+    background-color: var(--principal) !important;
+  }
+  .header-color{
+    background-color: var(--principal) !important;
+
+  }
+  .input-search-user{
+    width: 100% !important;
+  }
+  .img-profile-tab-user{
+    /* border: 1px solid red; */
+    height: 30px !important;
+    width: 30px !important;
+    border-radius: 50% !important;
+  }

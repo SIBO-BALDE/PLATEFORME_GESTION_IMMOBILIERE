@@ -1,0 +1,80 @@
+:root{
+--color1: #b1c0c6;
+--color2: #eeeeee;
+--color3: #d3dde2;
+
+}
+
+
+
+
+
+/*Animate cogs*/
+#cog1, #cog2, #cog3{
+  animation:spin 4s linear infinite;
+  transform-origin: center;
+  transform-box: fill-box;
+  animation-delay:0.6s;
+}
+
+#cog1 {fill:#D46F4D;}
+
+#cog2{
+  animation:spinback 4s linear infinite;
+  animation-delay:0.6s;
+  fill:#D46F4D;
+}
+
+#cog3 {fill:#D46F4D}
+
+@-webkit-keyframes pop{
+  0%{transform: scale(0);}
+  90%{transform: scale(1.1);}
+  100%{transform: scale(1);}
+}
+@-webkit-keyframes spin { 
+  100% { transform: rotate(360deg);}
+}
+@-webkit-keyframes spinback { 
+  100% { transform: rotate(-360deg);}
+}
+
+body {background-color:#fff;
+}
+
+.error-container {
+  text-align:center;
+ 
+}
+
+.animate-404 {
+  margin:80px auto 0;
+  border-radius:50%;
+  overflow:hidden;  
+  width:170px;
+  height:170px;  
+  position:relative;
+  background-color:#f9f9f9;
+  border:1px solid #eeeeee;
+  box-shadow: inset 0px 0px 5px 0px rgba(50, 50, 50, 0.1);
+
+  & > svg{
+    animation: pop 0.4s ease-in;
+    width:200px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-47%, -50%);
+  }
+}
+
+
+.error-code {
+    font-size:100px; 
+    color:#D46F4D; 
+    line-height:1em;
+}
+
+.error-desc {
+    color:black;
+}
